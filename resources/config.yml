@@ -1,0 +1,36 @@
+tiers:
+  1:
+    page_count: 3
+    name: "Bloc de stockage §lDiamant"
+    explosion_protection: false
+    all_can_break: false
+    all_can_open: true
+
+    shape:
+      - ["0:0", "0:0", "0:0"]
+      - ["0:0", "4:0", "0:0"]
+      - ["0:0", "0:0", "0:0"]
+    result: "57:0"
+  2:
+    page_count: 4
+    name: "Bloc de stockage §lPierre"
+    explosion_protection: true
+    all_can_break: true
+    all_can_open: false
+
+    shape:
+      - ["0:0", "0:0", "0:0"]
+      - ["0:0", "3:0", "0:0"]
+      - ["0:0", "0:0", "0:0"]
+    result: "1:0"
+messages:
+  prefix: "§l§f[§eBloc de stockage§f] §r"
+
+  block_placed: "§fVous avez placé un bloc de stockage: §e{NAME}"
+  block_removed: "§fVous avez retiré un bloc de stockage: §e{NAME}"
+  cant_break_chest: "§cVous ne pouvez pas casser ce bloc de stockage car il n'est pas à vous."
+  cant_open_chest: "§cVous ne pouvez pas ouvrir ce bloc de stockage car il n'est pas à vous."
+  other_player_here: "§fAttendez que §e{PLAYER} §fferme ce bloc pour y accéder."
+
+  # Pour éviter plusieurs interfaces en même temps qui s'ouvre
+  tip_wait_spam: "- Patientez {SECONDS} avant de réessayer -"

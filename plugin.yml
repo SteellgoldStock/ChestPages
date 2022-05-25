@@ -1,0 +1,10 @@
+name: ChestPages
+description: "ChestPages is a plugin for Minecraft that allows you to create a book-like inventory."
+version: "1.0.0"
+api: 4.0.0
+author: "Steellg0ld"
+main: chestpages\CP
+
+permissions:
+  chestpages.blocks.readonly:
+    default: op
